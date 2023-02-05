@@ -29,7 +29,7 @@ namespace DiscordBot
 
         public async Task MainAsync()
         {
-            string token = "YOUR_BOT_TOKEN";
+            string token = "TOKEN ICI";
 
             // Commandes personnalisées
             _client.MessageReceived += HandleCommandAsync;
